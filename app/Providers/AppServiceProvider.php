@@ -26,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
     {
         if(env('REDIRECT_HTTPS'))
           {
-            $url->forceSchema('https');
+            $url->forceScheme('https');
           }
     }
 }
