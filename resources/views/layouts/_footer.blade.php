@@ -66,9 +66,3 @@
       </div>
     </div>
   </footer>
-
-  Model:
-  greetings+=Greeting*;
-  
-Greeting:
-  'Hello' name=ID '!';

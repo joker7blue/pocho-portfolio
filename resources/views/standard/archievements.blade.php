@@ -21,7 +21,7 @@
         </h3>
 <p style="clear: both;"></p>
         <div>
-            <img src="{{ asset('images/dakotel index.png') }}" style="width: 50%; float: left; margin-right: 15px;">
+            <img src="{{ asset('images/dakotel index.PNG') }}" style="width: 50%; float: left; margin-right: 15px;">
 
             <div style="text-align: justify; font-size: 1.5em;">
                 Website Hotel.
