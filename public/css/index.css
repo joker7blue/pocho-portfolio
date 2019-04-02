@@ -1,0 +1,140 @@
+.nav-colored {
+		background-color: black;
+		transition: background-color 200ms linear;
+}
+
+.nav-transparent{
+		background-color: transparent;
+		transition: background-color 200ms linear;
+}
+
+/* FOR PANORAMA */
+
+#conteneurPanoramaAnim{
+
+	background-image: url('../images/principal_index1.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+	position: relative;
+	top: 0px;
+	left: 0px;
+
+	z-index: 850;
+
+ 	width: 100%;
+ 	height: 100%;
+}
+
+.imgPanorama{
+	position: absolute;
+ 	top: 0px;
+ 	left: 0px;
+ 	width: 100%;
+ 	height: 100%;
+ 	z-index: 800;
+}
+
+.imgPanorama:nth-child(1){
+
+	background-image: url('../images/principal_index1.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+	z-index: 500;
+ }
+
+.imgPanorama:nth-child(2){
+
+	background-image: url('../images/principal_index2.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+	z-index: 400;
+ }
+
+.imgPanorama:nth-child(3){
+
+	background-image: url('../images/principal_index3.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+	z-index: 300;
+ }
+
+
+#contentDivWithBacground {
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+	width: 100%;
+	height: 100%;
+
+	z-index: 900;
+
+	/*background: linear-gradient(180deg,rgba(82, 54, 238, 0.4),rgba(180, 57, 180,0.4));*/
+	/*background-color: rgba(112, 42, 103, 0.315);*/
+	background: linear-gradient(180deg,rgba(14, 13, 26, 0.4),rgba(180, 57, 180,0.4));
+}
+
+
+#msgInContentDivWithBacground{
+
+	color: white;
+	/*background-color: green;*/
+	text-align: justify;
+	/*width: 30%;*/
+	position: relative;
+	top: 20%;
+	/*left: 2%;*/
+}
+
+.service-block{
+
+	text-align: justify;
+}
+
+#link{
+
+position: relative;
+	top: 15%;
+	right: 2%;
+	/*background-color: red;*/
+}
+#link .collection-item{
+
+	color: white;
+	font-size: 1.5em;
+	background-color: transparent !important;
+}
+#link .collection-item a{
+
+	color: white;
+}
+#link .collection-item:hover{
+
+	background-color: #d500f9 !important;
+}
+/* END PANORAMA */
+
+
+
+
+/* FOR NAVBAR */
+
+
+/* END NAVBAR */
+
+/*#div-restau{
+	position: relative;
+	height: 75%;
+	background-image: url('../images/dakotel2.jpg');
+	background-size: 100% 100%;
+  background-attachment: fixed;
+}*/

@@ -1,0 +1,74 @@
+header, main, footer {
+  padding-left: 220px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+#slide-out{
+
+  width: 220px;
+  background-color:black; 
+  color: white;
+}
+
+#slide-out li a, #slide-out li a i{
+
+  color: white;
+}
+
+#slide-out .collapsible li .collapsible-body{
+
+  background-color: rgb(46, 41, 41);
+}
+
+.top-nav{
+
+  /*background-color: rgba(0,0,0,0);*/
+  background-color: blueviolet;
+}
+#mmm{
+  height: 100%;
+  background-color: black;
+  /*background-color: rgba(0,0,0,0.7);*/
+}
+
+#dropdown-lang li{
+  background-color: rgba(0,0,0,0.6);
+}
+
+#dropdown-lang li > a{
+  color: white;
+}
+
+
+.input-text-perso{
+
+  padding: 5px;
+  font-family: 'Lobster';
+  border-radius: 5px;
+  border: none;
+  border: 1.5px solid black;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.input-text-perso:focus{
+  border-radius: 5px;
+  border-color: #d500f9;
+  box-shadow: 0px 0px 5px #d500f9;
+}
+
+.button-perso{
+  padding: 10px 30px;
+  border: none;
+  color: white;
+}
+
+.button-perso:hover{
+  box-shadow: 0px 0px 5px #d500f9;
+  
+}

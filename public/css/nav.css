@@ -1,0 +1,24 @@
+/*#my-nav{
+    background-color: rebeccapurple;
+}*/
+
+.navbar-fixed #my-nav .nav-wrapper .brand-logo{
+    position: relative; 
+    left: 10%; 
+    font-family: Lobster;
+}
+
+.navbar-fixed .sidenav li a{
+    color: white;
+}
+
+.navbar-fixed .sidenav li:hover{
+    background-color: #212121;
+}
+
+@media only screen and (max-width : 650px) {
+    .navbar-fixed #my-nav .nav-wrapper .brand-logo{
+        position: relative; 
+        left: 40%;
+    }
+  }

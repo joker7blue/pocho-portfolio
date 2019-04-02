@@ -1,0 +1,11 @@
+#my-nav{
+    background-color: black;
+}
+
+.container-fluid{
+    padding: 3em 0em;
+    background-color: black;
+    transform: skewY(-3deg); 
+    position: relative;
+    top: 3em;
+}
