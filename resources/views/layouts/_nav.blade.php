@@ -24,7 +24,7 @@
     <ul class="sidenav" id="mobile-demo" style="background-color: black;">
 
           <li><a href="/"><i class="material-icons left white-text">home</i>Home</a></li>
-          <li><a href="{{ route('contact') }}"><i class="material-icons left white-text">library_books</i>Achievements</a></li>
+          <li><a href="{{ route('archivements') }}"><i class="material-icons left white-text">library_books</i>Achievements</a></li>
           <li><a href="{{ route('apropos') }}"><i class="material-icons left white-text">person</i>About</a></li>
           <li><a href="{{ route('contact') }}"><i class="material-icons left white-text">contact_mail</i>Contact</a></li>
     </ul>
